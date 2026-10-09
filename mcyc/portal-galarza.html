@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal San Nicolás</title>
+    <link rel="stylesheet" href="/assets/css/portales/style.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</head>
+<body>
+    <!-- <header>
+        <div class="header-content">
+            <h1>Header Section</h1>
+            <nav>
+                <button class="menu-toggle" aria-expanded="false" aria-controls="header-nav">Menu</button>
+                <ul id="header-nav" class="header-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav> 
+        </div>
+    </header> -->
+
+    <section>
+        <div class="hero-content" style="background-image: url('https://parqueibera.gob.ar/wp-content/uploads/2021/10/T9A8403.jpg') !important;">
+            <h1 style="font-size: 72px; text-shadow: black 2px 2px 5px ; font-weight: unset;">Portal <br> Galarza</h1>
+            <span class="scroll-btn">
+                <a href="#main" class="scroll-down"><span class="mouse"><p></p></span></a>
+                <p style="margin-bottom: 75px;">Deslizá</p>
+            </span>
+            
+        </div>
+    </section>
+
+    <main id="main">
+        <div class="main-content">
+            <div class="container">
+                <div class="row">
+                    <!-- <h1 style="text-align: center; display: flex; justify-content: center;">ZONA</h1><br> -->
+                    <!-- google map js -->
+                    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+                    <!-- end google map js -->
+                    <div class="row" style="margin-top: 10px; margin-bottom: 10px;">
+                        <div class="map_section">
+                            <img src="imagenes-portales/portal cambyretaa.png" alt="ibera-corrientes" style="max-width: 100%;">
+                            <!-- <div id="mapa"><iframe src="https://www.google.com/maps/d/u/0/embed?mid=1pBFY8iQr0LhEbXBfU-pLLxUHEXSjvIA&usp=sharing" width="338" height="400"></iframe></iframe></div>
+                            <div id="mapa"><iframe src="https://earth.google.com/earth/d/1L5PIP3aOFQPpbKBPAgOTEW_vJOTWTOrm?usp=sharing" width="338" height="400"></iframe></iframe></div> -->
+                        </div>
+                        <!-- <iframe width="100%" height="450" frameborder="0" title="Felt Map" src="https://felt.com/embed/map/Untitled-Map-LlqyA9CNeSpinKBFKAUPU2D?lat=-27.771487&lon=-56.828462&zoom=10.772"></iframe>                           -->
+                        <br>
+
+                        <div style="display: flex; justify-content: center; ">
+                            <a href="https://www.google.com/maps/d/u/0/embed?mid=1pBFY8iQr0LhEbXBfU-pLLxUHEXSjvIA&usp=sharing" target="_blank" style="position: relative !important;
+                            color: #fff;
+                            background-color: #80B748;
+                            border-color: #80B748;
+                            will-change: border-color,color,background-color;
+                            -webkit-transition: border-color,color,background-color;
+                            transition-duration: 35s;
+                            -webkit-transition-timing-function: ease;
+                            transition-timing-function: ease;
+                            display: inline-flex;
+                            -webkit-box-pack: center;
+                            justify-content: center;
+                            -webkit-box-align: center;
+                            border-radius: 0%;
+                            "
+                            class="btn btn-primary">
+                                Mapa Guía Aquí                           
+                            </a>
+                        </div>
+                    </div>
+
+                    <br>
+                    <hr>
+                    <br>
+                    
+                    <div class="container">
+                        <div class="row">
+                            <div class="weather-widget">
+                                <div class="container-fluid">
+                                    <section class="display">
+                                        <div class="wrapper">
+                                            <h2 id="cityoutput"></h2>
+                                            <p id="description"></p>
+                                            <p id="temp"></p>
+                                            <p id="wind"></p>
+                                            <br>
+                                            <div id="forecast" style="display: flex; justify-content: space-between;"></div>
+                                        </div>
+                                    </section>
+                                </div>
+
+                                <script>
+                                    var city = document.querySelector('#cityoutput');
+                                    var descrip = document.querySelector('#description');
+                                    var temp = document.querySelector('#temp');
+                                    var wind = document.querySelector('#wind');
+                                    var icon = document.querySelector('#icon');
+                                    var forecast = document.querySelector('#forecast');
+                                
+                                    const apik = "b9203500b01a067a10fa5742cbe25b8f";
+                                    const cityname = "La Cruz,Corrientes,AR";
+                                
+                                    function convertion(val) {
+                                        return (val - 273).toFixed(0);
+                                    }
+                                
+                                    function getIcon(condition) {
+                                        switch (condition) {
+                                            case 'Clear':
+                                                return '☀️';
+                                            case 'Clouds':
+                                                return '☁️';
+                                            case 'Rain':
+                                                return '🌧️';
+                                            case 'Thunderstorm':
+                                                return '⛈️';
+                                            case 'Snow':
+                                                return '❄️';
+                                            case 'Mist':
+                                                return '🌫️';
+                                            default:
+                                                return '🌦️';
+                                        }
+                                    }
+                                
+                                    function displayForecast(forecastData) {
+                                        var forecastHTML = '';
+                                        for (var i = 1; i < 6; i++) {
+                                            var forecastHour = new Date((forecastData.list[i].dt) * 1500).getHours();
+                                            var forecastCondition = forecastData.list[i].weather[0].main;
+                                            var forecastIcon = getIcon(forecastCondition);
+                                            var forecastTemp = convertion(forecastData.list[i].main.temp);
+                                            forecastHTML += `<div class="forecast-item">
+                                                                <p style="display: flex; justify-content: center; align-items: center">${forecastHour}:00</p>
+                                                                <p style="display: flex; justify-content: center; align-items: center">${forecastIcon}</p>
+                                                                <p style="font-size: 15px; margin-right: 10px, display: flex; justify-content: center; align-items: center"">${forecastTemp} C° </p>
+                                                             </div>`;
+                                        }
+                                        forecast.innerHTML = forecastHTML;
+                                    }
+                                
+                                    fetch('https://api.openweathermap.org/data/2.5/weather?q=' + cityname + '&appid=' + apik + '&lang=es')
+                                        .then(res => res.json())
+                                        .then(data => {
+                                            var nameval = data['name'];
+                                            var descripval = data['weather']['0']['description'];
+                                            var tempature = data['main']['temp'];
+                                            var wndspd = data['wind']['speed'];
+                                            var condition = data['weather'][0]['main'];
+                                            city.innerHTML = `<span>${nameval}<span>, Corrientes`;
+                                            temp.innerHTML = `Temperatura Actual: <span>${convertion(tempature)} C°</span>`;
+                                            descrip.innerHTML = `Condición Actual: ${getIcon(condition)} ${descripval}`;
+                                            wind.innerHTML = `Velocidad del viento: <span>${wndspd} km/h<span>`;
+                                            return fetch('https://api.openweathermap.org/data/2.5/forecast?q=' + cityname + '&appid=' + apik + '&lang=es');
+                                        })
+                                        .then(res => res.json())
+                                        .then(data => {
+                                            displayForecast(data);
+                                        })
+                                        .catch(err => alert('Error al obtener los datos del tiempo.'));
+                                </script>
+                              
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <br>
+
+                    <div class="wrapper-success" style="justify-content: center; display: flex; text-align: center;">
+                        <div class="card-pro">
+                            <div class="icon" style="margin-top: -10px;"><i class="bi bi-check-circle-fill"></i></div>
+                            <div class="subject">
+                            <h4>ESTADO DEL CAMINO</h4>
+                            <p><b>Transitable</b></p>
+                            </div>
+                            <div class="icon-times"><i class=""></i></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-8">
+                        <br>
+                        <p style="text-align: justify; line-height: 30px">
+
+                            A 318 km de Corrientes (capital), 120 km de Posadas (Misiones), 100 km de Ituzaingó por RN12; a 125 km de Santo Tomé por RN14 y a 80km de Virasoro por RP37. El Portal se encuentra sobre la ruta provincial 41, la misma es de ripio.<br>
+                            
+                            
+                            <br>El Portal se encuentra en el Paraje Galarza y cuenta con un alojamiento ecoturístico.<br>
+                            
+                            <br>
+
+                            <p style="text-align: center; display: flex; justify-content: center;"> <b> Actividades </b> </p>
+
+                            <p style="text-align: justify; line-height: 30px">
+
+                                <br>Navegación por esteros y lagunas, avistajes de aves, flora y fauna,  
+
+
+                                Caminatas por esteros, pastizales y montes nativos, navegación nocturnas. 
+
+                                Visitas a establecimientos yerbateros, traslados en 4×4, guiados e interpretación en inglés y portugués. 
+                                
+                                <br>
+                            
+                            </p>
+                        </p>
+                    </div>
+                    <br>
+                    <div class="col-12 col-md-12 col-lg-4">
+
+                        <div class="box-square bg-success text-white" style="height: 150px;">
+                            <i class="bi bi-exclamation-circle icon-white"></i>
+                            <div class="d-flex align-items-center justify-content-center">
+                              <span style="color: white"><b> Información Útil </b></span><br>
+                              <span style="color: white">En el portal: hay señal de internet y poca señal de celular. <br>
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="box-squaretwo bg-success text-white" style="height: 183px">
+                            <i class="bi bi-telephone"></i>
+                            <div class="d-flex align-items-center justify-content-center">
+                              <span><b> Teléfonos útiles </b></span><br>
+                                
+                                
+                                <li>Contacto: +543756511931
+                                    portalgalarza@gmail.com</li>
+
+                           
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="box-squarethree bg-success text-white">
+                            <i class="bi bi-info-circle"></i>
+                            <div class="d-flex align-items-center justify-content-center">
+                              <span><b> Información Adicional </b></span><br>
+                                
+                                <span> Para mas información sobre el Portal</span>
+                                <span> Alojamientos, Gastronomía, Turismo, etc.</span>
+                                <br>
+                                <br>
+
+                                <div style="display: flex; justify-content: center; ">
+                                    <a href="https://parqueibera.gob.ar/portales/portal-galarza/" target="_blank" style="position: relative !important;
+                                    color: #fff;
+                                    background-color: #80B748;
+                                    border-color: #80B748;
+                                    will-change: border-color,color,background-color;
+                                    -webkit-transition: border-color,color,background-color;
+                                    transition-duration: 35s;
+                                    -webkit-transition-timing-function: ease;
+                                    transition-timing-function: ease;
+                                    display: inline-flex;
+                                    -webkit-box-pack: center;
+                                    justify-content: center;
+                                    -webkit-box-align: center;
+                                    border-radius: 0%;
+                                    "
+                                    class="btn btn-primary">
+                                        Aquí                           
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <br>
+                    <hr>
+                    <br>
+
+                    <div class="container">
+                        <div class="row">
+                            <img src="imagenes-portales/corrientes-logo.png" alt="logo-prov" class="responsive-logo">
+                            <img src="imagenes-portales/20.png" alt="logo-turismo" class="responsive-logodos">
+                            
+                            <img src="imagenes-portales/19.png" alt="logo-mincyt" class="responsive-logodos">
+
+                        </div>
+                    </div>
+
+                    </div>
+
+            </div>
+        
+        
+        
+        </div>
+    </main>
+
+</body>
+</html>
+
