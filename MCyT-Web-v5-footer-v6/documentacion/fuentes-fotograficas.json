@@ -1,0 +1,192 @@
+{
+  "reviewed_on": "2026-10-13",
+  "recommended_authority_image": "cabrera_retrato_radionord_2026.jpg",
+  "recommended_maximum_provenance_image": "cabrera_jura_2025_12_11.jpg",
+  "portrait_recommendation": "Para el primer borrador usar cabrera_retrato_radionord_2026.jpg con crédito Nord24 / Radionord: identifica al entrevistado por artículo y permite encuadre CSS. La foto de jura tiene epígrafe explícito y es la opción con mejor acreditación individual. No se encontró retrato oficial frontal de protocolo en fuente gubernamental primaria accesible; el retrato de oficina de MinutoCorrientes queda excluido porque la nota redirige y no se pudo verificar el epígrafe.",
+  "official_role_sources": [
+    {
+      "url": "https://www.argentina.gob.ar/ciencia/cofecyt/consejo/representantes",
+      "evidence": "Corrientes: Dr. Luciano Cabrera — Ministro de Ciencia y Tecnología. Mgter. Mariana Silvia Micaela Stefani Van Der Woerd — Subsecretaria de Coordinación Institucional. Decreto designación de representantes 855/26 del 21/04/2026."
+    },
+    {
+      "url": "https://munired.mcypcorrientes.gob.ar/gobierno-de-la-provincia-de-corrientes",
+      "evidence": "Directorio Gobierno Provincial: Ministerio de Ciencia y Tecnología, Ministro Dr. Luciano Cabrera."
+    },
+    {
+      "url": "https://cecoal.conicet.gov.ar/visita-del-ministro-de-ciencia-y-tecnologia-de-corrientes-dr-luciano-cabrera/",
+      "evidence": "CONICET registra visita el 11/02/2026 de Luciano Cabrera junto con Micaela Stefani; publicación 20/02/2026. Contiene video, no una foto fija descargable."
+    }
+  ],
+  "images": [
+    {
+      "filename": "cabrera_jura_2025_12_11.jpg",
+      "verified": true,
+      "source_kind": "Foto periodística con epígrafe explícito",
+      "source_url": "https://www.diarioellibertador.com.ar/corrientes-las-juras-del-gabinete-completo-en-casa-de-gobierno/",
+      "image_url": "https://www.diarioellibertador.com.ar/wp-content/uploads/2025/12/4R7A8037_1.jpg",
+      "publication_date": "2025-12-11",
+      "event_date": "2025-12-11",
+      "photographer": "Luis Gurdiel",
+      "dimensions": [
+        800,
+        1200
+      ],
+      "identity_evidence": "La foto específica enlazada como imagen 32 tiene el epígrafe «Luciano Cabrera juró como ministro de Ciencia y Tecnología». La noticia indica que la jura tuvo lugar el 11 de diciembre de 2025. Identificación basada en el epígrafe, no en semejanza facial.",
+      "depiction": "Persona central ante el micrófono, mano sobre el libro de juramento; otros asistentes al fondo.",
+      "recommended_use": "Imagen de autoridad, recuadro vertical. Mantener la referencia al acto de jura cuando se usa en contexto de noticia.",
+      "css_object_position": "50% 20%",
+      "cropping_needed": false,
+      "editorial_note": "Foto original descargada sin modificación.",
+      "bytes": 124050,
+      "sha256": "c4d317dd381c12de10f797d35fd3ce9543f729582b4bb2d0458f3d3ab5ff15c7"
+    },
+    {
+      "filename": "cabrera_verano_tecnologico_2026_01_22.jpg",
+      "verified": true,
+      "source_kind": "Fuente gubernamental primaria Munired — Ministerio de Coordinación y Planificación",
+      "source_url": "https://munired.mcypcorrientes.gob.ar/noticia/el-ministerio-de-ciencia-y-tecnologia-lanzo-el-programa-verano-tecnologico-en-casa-de-gobierno",
+      "image_url": "https://munired.mcypcorrientes.gob.ar/img/noticias/1769096207.jpg",
+      "publication_date": "2026-01-22",
+      "event_date": "2026-01-22",
+      "photographer": null,
+      "dimensions": [
+        1600,
+        1066
+      ],
+      "identity_evidence": "El artículo oficial publica esta imagen del lanzamiento de Verano Tecnológico y nombra explícitamente a Luciano Cabrera como ministro, a Micaela Stefani como subsecretaria y a Gabriel Molteni como coordinador. No contiene epígrafe individual que numere a las personas; usar como foto del acto completo.",
+      "depiction": "Presentación ministerial en Salón Verde con mesa de oradores, dispositivos de realidad virtual y público.",
+      "recommended_use": "Galería de actividades 2026 con título y fecha correctos; apta para banner horizontal.",
+      "css_object_position": "70% 36%",
+      "cropping_needed": false,
+      "editorial_note": "Tiene logos impresos en el fondo propios del evento; no editar ni reemplazar cartelería dentro de la fotografía.",
+      "bytes": 369277,
+      "sha256": "03d0158860605f6d62eaa49a3af8f48ae826a353a9b4f4c162a6b152be868288"
+    },
+    {
+      "filename": "cabrera_retrato_radionord_2026.jpg",
+      "verified": true,
+      "source_kind": "Foto periodística de entrevista; no retrato oficial",
+      "source_url": "https://nord24.com.ar/nea-tech-reunira-tecnologia-innovacion-y-negocios-en-corrientes/",
+      "image_url": "https://nord24.com.ar/wp-content/uploads/2026/03/luciano-ok-1024x576.jpeg",
+      "publication_date": "2026-09-28",
+      "event_date": null,
+      "photographer": null,
+      "dimensions": [
+        1024,
+        576
+      ],
+      "identity_evidence": "La foto es la imagen principal de una entrevista a Luciano Cabrera. El primer párrafo identifica al entrevistado como Luciano Cabrera, ministro de Ciencia y Tecnología de Corrientes. La URL del activo incluye «luciano-ok». La fecha de la imagen no puede deducirse de la fecha de publicación: el activo está en uploads/2026/03.",
+      "depiction": "Retrato de una entrevista con micrófono de Radionord, marca de Nord24 a la derecha.",
+      "recommended_use": "Retrato de la tarjeta de autoridad, con crédito visible Nord24 / Radionord. Preferir una foto oficial de protocolo si posteriormente la entregan.",
+      "css_object_position": "55% 15%",
+      "cropping_needed": false,
+      "editorial_note": "Conservar fuente y crédito. No presentarlo como retrato oficial ni fecharlo como sesión de 28/09/2026.",
+      "bytes": 67495,
+      "sha256": "59f82488b0265573c59b7336751e038459f148407fe4765c73ab5e3eb2fb4444"
+    },
+    {
+      "filename": "cabrera_nea_tech_lanzamiento_2026_09_29.jpg",
+      "verified": true,
+      "source_kind": "Foto de prensa del lanzamiento publicada por Diario El Libertador",
+      "source_url": "https://www.diarioellibertador.com.ar/corrientes-lanzo-oficialmente-el-nea-tech-2026/",
+      "image_url": "https://www.diarioellibertador.com.ar/wp-content/uploads/2026/09/IMG_2195.jpg",
+      "publication_date": "2026-09-29",
+      "event_date": "2026-09-29",
+      "photographer": "Luis Gurdiel",
+      "dimensions": [
+        800,
+        450
+      ],
+      "identity_evidence": "Es la foto principal de la nota del lanzamiento oficial de NEA TECH 2026. El artículo identifica la participación del ministro Luciano Cabrera y de Anita Alegre López (TelCo). No hay epígrafe individual que numere a las personas; usar como fotografía del evento completo.",
+      "depiction": "Tres oradores en el lanzamiento de NEA TECH 2026 con pantalla y bandera; fotografía horizontal.",
+      "recommended_use": "Galería actual, tarjeta de lanzamiento NEA TECH 2026 del 29/09/2026. No asignar cargos a cada persona sin epígrafe individual.",
+      "css_object_position": "50% 45%",
+      "cropping_needed": false,
+      "editorial_note": "Foto original sin modificación.",
+      "bytes": 73080,
+      "sha256": "7ecb7f8549045fadd9d418a844c8b3b4251fdc9256e1f285258db9fa8f35f906"
+    },
+    {
+      "filename": "cabrera_cadena_radios_2026_09_29.jpg",
+      "verified": true,
+      "source_kind": "Fotografía de entrevista, fuente de prensa primaria",
+      "source_url": "https://www.cadenaderadios.com.ar/noticia/87396_luciano-cabrera-brind-detalles-sobre-ciencia-y-tecnologa-en-corrientes.htm",
+      "image_url": "https://www.cadenaderadios.com.ar/multimedia/imagenes/fotos/2026-09-29/472760_mediana.jpg",
+      "publication_date": "2026-09-29",
+      "credit": "Cadena de Radios",
+      "identity_evidence": "Imagen principal de una entrevista cuyo título y texto identifican a Luciano Cabrera como ministro; fotografía individual.",
+      "editorial_note": "Original sin edición en galería; también fuente del retrato adaptado v3."
+    },
+    {
+      "filename": "nea_tech_oradores_2026_09_29.jpg",
+      "verified": true,
+      "source_kind": "Fotografía de prensa del lanzamiento de NEA TECH",
+      "source_url": "https://www.diarioellibertador.com.ar/corrientes-lanzo-oficialmente-el-nea-tech-2026/",
+      "image_url": "https://www.diarioellibertador.com.ar/wp-content/uploads/2026/09/IMG_2184.jpg",
+      "publication_date": "2026-09-29",
+      "credit": "Luis Gurdiel / Diario El Libertador",
+      "identity_evidence": "Galería del acto publicada por el diario; el artículo nombra la participación del ministro. Se describe la mesa de oradores sin asignar identidades por reconocimiento facial.",
+      "editorial_note": "Original sin edición."
+    }
+  ],
+  "implementation_notes": [
+    "No sustituir rostros en fotos históricas de eventos. Retirar fotos de la gestión anterior de la galería actual y reemplazar tarjetas completas por hechos reales de la gestión actual con sus fechas.",
+    "Las fotos originales de la galería no se editaron. V3 incluye dos retratos adaptados con IA y fondo transparente; fuentes y prompts en retratos-adaptados-v3.json.",
+    "Las fechas de publicación y del evento se mantienen separadas. No convertir un activo de entrevista en foto oficial de protocolo.",
+    "Descargas públicas realizadas con User-Agent Mozilla/5.0; primera prueba sin User-Agent recibió 403."
+  ],
+  "portrait_adaptations_reference": "retratos-adaptados-v3.json",
+  "visual_revision": 4,
+  "v4_portrait_provenance": "documentacion/retrato-luciano-v4.json",
+  "v4_gallery_sources": [
+    [
+      "assets/img/gestion-2026/cabrera_nea_tech_lanzamiento_2026_09_29.jpg",
+      "Lanzamiento de NEA TECH 2026",
+      "https://www.diarioellibertador.com.ar/corrientes-lanzo-oficialmente-el-nea-tech-2026/",
+      "Luis Gurdiel / Diario El Libertador"
+    ],
+    [
+      "assets/img/gallery/mica-hello-hackathon.jpeg",
+      "Hello Hackathon Corrientes 2023",
+      "https://mcyt.corrientes.gob.ar/index.html",
+      "Archivo MCyT Corrientes"
+    ],
+    [
+      "assets/img/gestion-2026/cabrera_verano_tecnologico_2026_01_22.jpg",
+      "Presentación de Verano Tecnológico en Casa de Gobierno",
+      "https://munired.mcypcorrientes.gob.ar/noticia/el-ministerio-de-ciencia-y-tecnologia-lanzo-el-programa-verano-tecnologico-en-casa-de-gobierno",
+      "Gobierno de Corrientes / Munired"
+    ],
+    [
+      "assets/img/gallery/mica-bernardino-rivadavia.jpeg",
+      "Actividad educativa en la escuela Bernardino Rivadavia",
+      "https://mcyt.corrientes.gob.ar/index.html",
+      "Archivo MCyT Corrientes"
+    ],
+    [
+      "assets/img/gestion-2026/nea_tech_oradores_2026_09_29.jpg",
+      "Mesa de oradores del lanzamiento de NEA TECH 2026",
+      "https://www.diarioellibertador.com.ar/corrientes-lanzo-oficialmente-el-nea-tech-2026/",
+      "Luis Gurdiel / Diario El Libertador"
+    ],
+    [
+      "assets/img/gestion-2026/cabrera_jura_2025_12_11.jpg",
+      "Luciano Cabrera durante su jura como ministro",
+      "https://www.diarioellibertador.com.ar/corrientes-las-juras-del-gabinete-completo-en-casa-de-gobierno/",
+      "Luis Gurdiel / Diario El Libertador"
+    ],
+    [
+      "assets/img/gestion-2026/cabrera_retrato_radionord_2026.jpg",
+      "Entrevista a Luciano Cabrera en Radionord",
+      "https://nord24.com.ar/nea-tech-reunira-tecnologia-innovacion-y-negocios-en-corrientes/",
+      "Nord24 / Radionord"
+    ],
+    [
+      "assets/img/gestion-2026/cabrera_cadena_radios_2026_09_29.jpg",
+      "Entrevista a Luciano Cabrera en Cadena de Radios",
+      "https://www.cadenaderadios.com.ar/noticia/87396_luciano-cabrera-brind-detalles-sobre-ciencia-y-tecnologa-en-corrientes.htm",
+      "Cadena de Radios"
+    ]
+  ],
+  "notes_v4": "Galería sin leyendas. Retratos adaptados; fuentes y prompts documentados. 18 miniaturas originales de actividades restauradas; 7 apariciones de fotos de gestión anterior no se reintroducen."
+}

@@ -1,0 +1,117 @@
+{
+  "source": "https://open-meteo.com/en/docs/geocoding-api",
+  "data_source": "GeoNames, vía Open-Meteo",
+  "verified_at": "2026-10-12, hora de Argentina",
+  "locations": [
+    {
+      "page": "parque-mburucuya.html",
+      "reference_city": "Mburucuyá",
+      "geonames": {
+        "id": 3430760,
+        "name": "Mburucuya",
+        "latitude": -28.04532,
+        "longitude": -58.22835,
+        "admin1": "Provincia de Corrientes",
+        "admin2": "Departamento de Mburucuyá"
+      }
+    },
+    {
+      "page": "portal-cambyreta.html",
+      "reference_city": "Ituzaingó",
+      "geonames": {
+        "id": 3433360,
+        "name": "Ituzaingó",
+        "latitude": -27.58504,
+        "longitude": -56.68707,
+        "admin1": "Provincia de Corrientes",
+        "admin2": "Departamento de Ituzaingó"
+      }
+    },
+    {
+      "page": "portal-carambola.html",
+      "reference_city": "Concepción",
+      "geonames": {
+        "id": 3435273,
+        "name": "Concepcion",
+        "latitude": -28.3932,
+        "longitude": -57.88679,
+        "admin1": "Provincia de Corrientes",
+        "admin2": "Departamento de Concepción"
+      }
+    },
+    {
+      "page": "portal-galarza.html",
+      "reference_city": "La Cruz",
+      "geonames": {
+        "id": 3432760,
+        "name": "La Cruz",
+        "latitude": -29.17625,
+        "longitude": -56.64262,
+        "admin1": "Provincia de Corrientes",
+        "admin2": "Departamento de San Martín"
+      }
+    },
+    {
+      "page": "portal-laguna-ibera.html",
+      "reference_city": "Colonia Carlos Pellegrini",
+      "geonames": {
+        "id": 3435338,
+        "name": "Colonia Carlos Pellegrini",
+        "latitude": -28.53603,
+        "longitude": -57.17321,
+        "admin1": "Provincia de Corrientes",
+        "admin2": "Departamento de Mercedes"
+      }
+    },
+    {
+      "page": "portal-rio-corriente.html",
+      "reference_city": "Chavarría",
+      "geonames": {
+        "id": 3435444,
+        "name": "Chavarría",
+        "latitude": -28.95525,
+        "longitude": -58.5718,
+        "admin1": "Provincia de Corrientes",
+        "admin2": "Departamento de San Roque"
+      }
+    },
+    {
+      "page": "portal-san-antonio.html",
+      "reference_city": "San Miguel",
+      "geonames": {
+        "id": 3428644,
+        "name": "San Miguel",
+        "latitude": -27.99833,
+        "longitude": -57.58735,
+        "admin1": "Provincia de Corrientes",
+        "admin2": "Departamento de San Miguel"
+      }
+    },
+    {
+      "page": "portal-san-nicolas.html",
+      "reference_city": "San Miguel",
+      "geonames": {
+        "id": 3428644,
+        "name": "San Miguel",
+        "latitude": -27.99833,
+        "longitude": -57.58735,
+        "admin1": "Provincia de Corrientes",
+        "admin2": "Departamento de San Miguel"
+      }
+    },
+    {
+      "page": "portal-uguay.html",
+      "reference_city": "Colonia Carlos Pellegrini",
+      "geonames": {
+        "id": 3435338,
+        "name": "Colonia Carlos Pellegrini",
+        "latitude": -28.53603,
+        "longitude": -57.17321,
+        "admin1": "Provincia de Corrientes",
+        "admin2": "Departamento de Mercedes"
+      }
+    }
+  ],
+  "san_antonio_note": "Referencia de San Miguel, localidad cercana; no se tomó un San Antonio homónimo de otra zona.",
+  "san_antonio_source": "https://parqueibera.gob.ar/portales/portal-san-antonio/"
+}

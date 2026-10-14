@@ -1,0 +1,9 @@
+{
+  "method": "image_gen built-in, edición conservadora de una fotografía pública",
+  "source_url": "https://nord24.com.ar/nea-tech-reunira-tecnologia-innovacion-y-negocios-en-corrientes/",
+  "source_photo": "assets/img/gestion-2026/cabrera_retrato_radionord_2026.jpg",
+  "edited_photo": "assets/img/gestion-2026/cabrera_retrato_nord_v4.png",
+  "served_photo": "assets/img/gestion-2026/cabrera_retrato_nord_v4.webp",
+  "delivery_encoding": "WebP sin pérdidas: comprobación exacta de todos los píxeles visibles y del canal alpha frente al PNG editado",
+  "prompt": "Use case: background-extraction, identity-preserve. Asset: a real-photo authority portrait for the ministry website. The only input is the exact edit target, the credited Nord24/Radionord photograph of Luciano Cabrera with a relaxed, slightly smiling expression and three-quarter head angle. Extract the man as a clean natural head-and-upper-torso cutout on a genuinely transparent background. Preserve his original face, open eyes, glasses, beard, hair, skin texture, head angle, expression, age, white shirt and dark blue jacket exactly as photographed. Do not turn his head frontal, close his eyes, invent a smile, smooth skin, beautify, change facial structure, replace clothing, or invent an official studio portrait. Remove only the interviewer's hand, the microphone and the room/background, repairing only the small jacket section they cover. Frame the complete head, shoulders and upper chest with a comfortable small transparent margin over the hair and at both sides. Square canvas. Show enough upper chest to sit naturally inside a circular frame; upper head about 8 percent below the top, shoulders near lower sides. No green circle, no background, no border, no lettering, no logo, no other people. This is conservative photographic extraction, preserving the existing positive expression and photo perspective."
+}

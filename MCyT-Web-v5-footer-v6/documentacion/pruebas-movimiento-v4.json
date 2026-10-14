@@ -1,0 +1,71 @@
+{
+  "scope": "DOM simulado y reloj controlado; sin renderizado en navegador",
+  "passed": 16,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "El cargador existe durante la entrada, antes de DOMContentLoaded",
+      "result": "passed"
+    },
+    {
+      "name": "Las animaciones no se reproducen detrás de la pantalla de carga",
+      "result": "passed"
+    },
+    {
+      "name": "Las fuentes o servicios que no terminan de cargar no retienen el cargador más de 2,5 segundos",
+      "result": "passed"
+    },
+    {
+      "name": "AOS empieza al quedar visible la página y conserva los tiempos originales",
+      "result": "passed"
+    },
+    {
+      "name": "Una carga rápida conserva una entrada breve y luego deja visible el contenido",
+      "result": "passed"
+    },
+    {
+      "name": "La entrada no comienza durante el fundido de salida del cargador",
+      "result": "passed"
+    },
+    {
+      "name": "La ampliación de fotografías se inicializa con la clase de la galería restaurada",
+      "result": "passed"
+    },
+    {
+      "name": "Abrir una foto no dispara el cargador de navegación",
+      "result": "passed"
+    },
+    {
+      "name": "Enlaces externos y clics para abrir otra pestaña conservan su comportamiento",
+      "result": "passed"
+    },
+    {
+      "name": "Navegar a otra página interna muestra el cargador y tiene una salida acotada",
+      "result": "passed"
+    },
+    {
+      "name": "La finalización tardía de la entrada no oculta el cargador de una navegación posterior",
+      "result": "passed"
+    },
+    {
+      "name": "Volver con el botón Atrás no deja la pantalla cubierta por el cargador",
+      "result": "passed"
+    },
+    {
+      "name": "La preferencia de reducir movimiento mantiene desactivadas las entradas y el cargador",
+      "result": "passed"
+    },
+    {
+      "name": "El cargador espera el logo o los retratos críticos sin esperar las imágenes diferidas",
+      "result": "passed"
+    },
+    {
+      "name": "Un error de una imagen crítica no bloquea la página",
+      "result": "passed"
+    },
+    {
+      "name": "Volver arriba usa desplazamiento suave",
+      "result": "passed"
+    }
+  ]
+}

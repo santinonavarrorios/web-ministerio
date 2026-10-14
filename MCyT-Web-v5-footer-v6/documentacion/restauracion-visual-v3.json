@@ -1,0 +1,57 @@
+{
+  "prepared_at": "2026-10-13",
+  "html_pages_updated": 64,
+  "gallery_images": 6,
+  "gallery_visible_news_cards": 0,
+  "aos_duration_ms": 1000,
+  "aos_easing": "ease-in-out",
+  "preloader_restored": true,
+  "preloader_max_wait_ms": 2500,
+  "authority_cards": 2,
+  "authority_card_columns": "col-lg-3 col-md-6",
+  "portrait_background": "#719C29",
+  "nav_background": "#6F0603",
+  "nav_color_choice_is_web_application_not_manual_mandate": true,
+  "hero_background": "#EDEDED",
+  "portraits_adapted_with_ai": true,
+  "corrected_visual_verified_on_host": false,
+  "original_live_site_fetch": "502 from this environment; original source and user screenshots used",
+  "gallery": [
+    {
+      "file": "cabrera_nea_tech_lanzamiento_2026_09_29.jpg",
+      "alt": "Lanzamiento de NEA TECH 2026 en Casa de Gobierno",
+      "source": "https://www.diarioellibertador.com.ar/corrientes-lanzo-oficialmente-el-nea-tech-2026/",
+      "credit": "Luis Gurdiel / Diario El Libertador"
+    },
+    {
+      "file": "cabrera_verano_tecnologico_2026_01_22.jpg",
+      "alt": "Presentación de Verano Tecnológico en Casa de Gobierno",
+      "source": "https://munired.mcypcorrientes.gob.ar/noticia/el-ministerio-de-ciencia-y-tecnologia-lanzo-el-programa-verano-tecnologico-en-casa-de-gobierno",
+      "credit": "Gobierno de Corrientes / Munired"
+    },
+    {
+      "file": "nea_tech_oradores_2026_09_29.jpg",
+      "alt": "Mesa de oradores durante el lanzamiento de NEA TECH 2026",
+      "source": "https://www.diarioellibertador.com.ar/corrientes-lanzo-oficialmente-el-nea-tech-2026/",
+      "credit": "Luis Gurdiel / Diario El Libertador"
+    },
+    {
+      "file": "cabrera_jura_2025_12_11.jpg",
+      "alt": "Luciano Cabrera durante su jura como ministro de Ciencia y Tecnología",
+      "source": "https://www.diarioellibertador.com.ar/corrientes-las-juras-del-gabinete-completo-en-casa-de-gobierno/",
+      "credit": "Luis Gurdiel / Diario El Libertador"
+    },
+    {
+      "file": "cabrera_retrato_radionord_2026.jpg",
+      "alt": "Entrevista a Luciano Cabrera publicada por Nord24 y Radionord",
+      "source": "https://nord24.com.ar/nea-tech-reunira-tecnologia-innovacion-y-negocios-en-corrientes/",
+      "credit": "Nord24 / Radionord"
+    },
+    {
+      "file": "cabrera_cadena_radios_2026_09_29.jpg",
+      "alt": "Entrevista a Luciano Cabrera publicada por Cadena de Radios",
+      "source": "https://www.cadenaderadios.com.ar/noticia/87396_luciano-cabrera-brind-detalles-sobre-ciencia-y-tecnologa-en-corrientes.htm",
+      "credit": "Cadena de Radios"
+    }
+  ]
+}

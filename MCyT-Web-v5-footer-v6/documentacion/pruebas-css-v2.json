@@ -1,0 +1,109 @@
+{
+  "checked_at": "2026-10-13",
+  "parsed_selectors": 444,
+  "scope": "CSS parsing, declared-property cascade and simulated static menu states; no browser rendering",
+  "passed": 25,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "No CSS imports in delivered bundle",
+      "result": "passed"
+    },
+    {
+      "name": "All ten sections bundled",
+      "result": "passed"
+    },
+    {
+      "name": "Local brand fonts included",
+      "result": "passed"
+    },
+    {
+      "name": "Desktop main menu uses flex",
+      "result": "passed"
+    },
+    {
+      "name": "Main menu has no bullets",
+      "result": "passed"
+    },
+    {
+      "name": "Closed desktop submenu is hidden",
+      "result": "passed"
+    },
+    {
+      "name": "Desktop toggle is hidden",
+      "result": "passed"
+    },
+    {
+      "name": "Mobile menu starts closed",
+      "result": "passed"
+    },
+    {
+      "name": "Mobile toggle is visible",
+      "result": "passed"
+    },
+    {
+      "name": "Opened mobile menu is displayed",
+      "result": "passed"
+    },
+    {
+      "name": "Opened mobile menu is fixed",
+      "result": "passed"
+    },
+    {
+      "name": "Mobile submenu starts closed",
+      "result": "passed"
+    },
+    {
+      "name": "Opened mobile submenu is displayed",
+      "result": "passed"
+    },
+    {
+      "name": "News 1: frame is 240px high",
+      "result": "passed"
+    },
+    {
+      "name": "News 1: photo overrides HTML height",
+      "result": "passed"
+    },
+    {
+      "name": "News 1: photo covers frame",
+      "result": "passed"
+    },
+    {
+      "name": "News 2: frame is 240px high",
+      "result": "passed"
+    },
+    {
+      "name": "News 2: photo overrides HTML height",
+      "result": "passed"
+    },
+    {
+      "name": "News 2: photo covers frame",
+      "result": "passed"
+    },
+    {
+      "name": "News 3: frame is 240px high",
+      "result": "passed"
+    },
+    {
+      "name": "News 3: photo overrides HTML height",
+      "result": "passed"
+    },
+    {
+      "name": "News 3: photo covers frame",
+      "result": "passed"
+    },
+    {
+      "name": "Counters have defined font size",
+      "result": "passed"
+    },
+    {
+      "name": "Partner logos have width limit",
+      "result": "passed"
+    },
+    {
+      "name": "Partner logos have height limit",
+      "result": "passed"
+    }
+  ]
+}

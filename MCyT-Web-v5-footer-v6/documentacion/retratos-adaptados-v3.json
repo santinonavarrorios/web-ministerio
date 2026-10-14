@@ -1,0 +1,18 @@
+{
+  "method": "Built-in image_gen",
+  "type": "Edición de fotografías reales con extracción de fondo e igualación de encuadre; no retratos oficiales de protocolo",
+  "assets": [
+    {
+      "file": "assets/img/gestion-2026/cabrera_retrato_frontal_v3.png",
+      "source": "https://www.cadenaderadios.com.ar/noticia/87396_luciano-cabrera-brind-detalles-sobre-ciencia-y-tecnologa-en-corrientes.htm",
+      "source_photo": "assets/img/gestion-2026/cabrera_cadena_radios_2026_09_29.jpg",
+      "prompt": "Use case: background-extraction, identity-preserve. Asset: real photograph cutout for a government authority directory. Image 1 is the edit target: the single minister pictured frontally in the Cadena de Radios interview. Image 2 is an identity/detail reference of the same subject from another credited interview, not a pose to copy. Make a clean head-and-shoulders cutout of only the man from Image 1, isolated on a genuinely transparent background. Preserve the exact frontal head pose, glasses, hairstyle, facial proportions, beard, expression, clothing and natural photographic appearance from Image 1. Do not generate a new person, change his face, change his age, smooth skin or invent a studio photo. Remove the surrounding event background, the microphone and interviewer hand; reconstruct only the small covered portion of his jacket needed for a clean chest-up cutout. Square composition, subject centered with complete hair/head, shoulders and upper chest, a small transparent margin above and around the subject; chest ends horizontally near the bottom edge. No circle, no colored background, no logos, no added text, no other people. This will be displayed over a circle drawn with CSS, matching the other authority portrait. Accurate conservative photographic extraction, not an illustration."
+    },
+    {
+      "file": "assets/img/gestion-2026/micaela_retrato_v3.png",
+      "source": "https://mcyt.corrientes.gob.ar/src/institucional/autoridades.html",
+      "source_photo": "assets/img/testimonials/profile-micaela-2.png",
+      "prompt": "Use case: background-extraction, identity-preserve. Asset: existing authority portrait cutout for a matching government directory. Edit the provided existing portrait. Remove only the white circular frame and green circle/background behind the woman, making the background genuinely transparent. Preserve her exact original face, glasses, hairstyle, smile, skin texture, clothing, jewelry, pose and outline. Do not beautify, sharpen into a different face, change her age or invent a new photograph. Square composition, woman centered head-and-shoulders with full hair/head and upper chest, small transparent margin above and around subject, chest ends horizontally near the bottom edge. No new background, no colored circle, no text, no added objects. The output will be displayed over a CSS circle matching another authority portrait; deliver a clean natural photographic cutout with alpha."
+    }
+  ]
+}

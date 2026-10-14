@@ -1,0 +1,61 @@
+{
+  "revision": "v5-final1",
+  "fecha": "2026-10-13",
+  "identificador_cache": "20261013-final1",
+  "navegador_pruebas": "Chrome Headless Shell 131.0.6778.204",
+  "responsive": {
+    "paginas": 64,
+    "anchos_px": [
+      320,
+      390,
+      1024,
+      1440
+    ],
+    "combinaciones": 256,
+    "revisado_al_inicio_y_al_final": true,
+    "desbordamientos": 0,
+    "errores_javascript": 0,
+    "recursos_locales_faltantes": 0
+  },
+  "navegacion": {
+    "anchos_px": [
+      320,
+      390,
+      768,
+      1024,
+      1199,
+      1200,
+      1366,
+      1440,
+      1920,
+      2560
+    ],
+    "emulacion_tactil_px": [
+      390,
+      1366
+    ],
+    "submenus_dentro_del_viewport": true,
+    "equipo_sin_navegacion": true,
+    "navegacion_a_proyectos": true,
+    "teclado_y_escape": true
+  },
+  "contenido": {
+    "pages": 64,
+    "footers_without_sitemap": 55,
+    "team_accesses_disabled": 56,
+    "gallery_images": 8,
+    "minister_social_links": 3,
+    "annual_report_placeholder": true,
+    "missing_local_references": [],
+    "forced_animations_preserved": true
+  },
+  "galeria": {
+    "gallery_open_close": true,
+    "forced_motion_preserved": {
+      "transform": "matrix(1.08, 0, 0, 1.08, 0, 0)",
+      "transition": "0.65s",
+      "reduce": true
+    }
+  },
+  "alcance": "Validación local del paquete. Para reflejar los cambios en el hosting se deben subir los archivos actualizados."
+}

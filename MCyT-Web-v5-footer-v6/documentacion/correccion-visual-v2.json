@@ -1,0 +1,41 @@
+{
+  "revision": "Corrección visual v2",
+  "sections_bundled": [
+    "assets/css/sections/header.css",
+    "assets/css/sections/nav.css",
+    "assets/css/sections/about.css",
+    "assets/css/sections/about_video.css",
+    "assets/css/sections/counts.css",
+    "assets/css/sections/services.css",
+    "assets/css/sections/team.css",
+    "assets/css/sections/gallery.css",
+    "assets/css/sections/workshop.css",
+    "assets/css/sections/announcements.css"
+  ],
+  "bundle": "assets/css/ministerio-2026-v2.css",
+  "brand_for_portals": "assets/css/marca-2026-v2.css",
+  "html_updated": 64,
+  "news_image_height_px": 240,
+  "css_imports_in_bundle": 0,
+  "prepared_at": "2026-10-13",
+  "previous_live_site_inspected": "https://skyportaltech.com/mcyt/",
+  "previous_release_measurements": {
+    "menu_display": "block",
+    "menu_list_style": "disc",
+    "header_height_px_approx": 677,
+    "news_image_heights_px": [
+      450,
+      1066,
+      1200
+    ]
+  },
+  "root_cause": "Fragmento de URL de Google Fonts dejado antes de los @import al retirarla; dimensiones HTML de fotos sin altura CSS definida.",
+  "css_declared_property_checks": 25,
+  "corrected_visual_verified_on_host": false,
+  "installation": "Extraer el parche directamente en public_html/mcyt/ y sobrescribir; Ctrl+F5.",
+  "patch_excludes": [
+    "forms/",
+    "images",
+    "smtp_credentials"
+  ]
+}
