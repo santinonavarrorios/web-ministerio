@@ -22,22 +22,27 @@
   <link rel="stylesheet" href="../../assets/css/ministerio-2026-v5.css?v=20261014-final2">
 
   <style>
-    /* Una sola columna: ministro primero y subsecretaria debajo. */
-    #team .authority-grid {
-      flex-direction: column;
-      align-items: center;
-      row-gap: 28px;
+    /* Autoridades: una sola columna en todas las resoluciones. */
+    #team .row.authority-grid {
+      display: flex !important;
+      flex-direction: column !important;
+      flex-wrap: nowrap !important;
+      align-items: center !important;
+      gap: 32px;
     }
 
-    /* El ancho se adapta a celulares y queda acotado en pantallas grandes. */
-    #team .authority-grid > div {
-      flex: 0 0 auto;
+    /* Evita que Bootstrap o estilos de la plantilla coloquen dos tarjetas en una fila. */
+    #team .row.authority-grid > .authority-item {
+      display: flex;
+      flex: 0 0 auto !important;
+      width: 100% !important;
+      max-width: 420px !important;
+      min-width: 0;
+    }
+
+    #team .row.authority-grid > .authority-item > .member {
       width: 100%;
-      max-width: 340px;
-    }
-
-    #team .authority-grid .member {
-      margin-bottom: 0;
+      margin: 0;
     }
   </style>
 
@@ -76,7 +81,7 @@
         </div>
 
         <div class="row authority-grid">
-          <div class="col-lg-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="0" data-aos-duration="750">
+          <div class="authority-item" data-aos="fade-up" data-aos-delay="0" data-aos-duration="750">
             <article class="member">
               <div class="member-img"><div class="authority-photo">
                 <img src="../../assets/img/gestion-2026/cabrera_retrato_nord_v6.webp" alt="Retrato de Dr. Luciano Cabrera" width="1254" height="1254" loading="eager" class="portrait-person portrait-luciano" data-critical-image="true">
@@ -90,7 +95,7 @@
             </article>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="70" data-aos-duration="750">
+          <div class="authority-item" data-aos="fade-up" data-aos-delay="70" data-aos-duration="750">
             <article class="member">
               <div class="member-img"><div class="authority-photo">
                 <img src="../../assets/img/gestion-2026/micaela_retrato_v4.webp" alt="Retrato adaptado de Mgter. Micaela Stefani Van Der Woerd" width="1254" height="1254" loading="eager" class="portrait-person" data-critical-image="true">
